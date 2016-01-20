@@ -1,0 +1,69 @@
+/* microphone.css 0.7.0 */
+/* microphone.css 0.7.0 */
+@font-face {
+    font-family: microphone;
+    src: url(fonts/microphone.eot);
+    src: url(fonts/microphone.eot?#iefix) format("embedded-opentype"), url(fonts/microphone.woff) format("woff"), url(fonts/microphone.ttf) format("truetype"), url(fonts/microphone.svg#microphone) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+.icon-wit-mic {
+    font-family: microphone;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-wit-mic:before {
+    content: "\e600";
+    font-size: 50%;
+}
+.wit-microphone {
+    font-family: "Lucida Grande", Verdana, Tahoma, Helvetica, Arial, sans-serif;
+    text-align: center;
+    position: relative;
+    height: 60px;
+    width: 60px;
+}
+.wit-microphone.active .mic {
+    color: rgba(255,82,73, 0.9);
+    border-color: rgba(200,200,200, 0.9);
+    background: rgb(255,231,230);
+}
+.mic-box {
+    border: 3px solid rgba(200,200,200, 0.9);
+    box-sizing: border-box;
+    width: 50%;
+    height: 50%;
+}
+.mic-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-color: transparent;
+}
+.mic {
+    background: rgb(240,245,251);
+    border-radius: 100%;
+    color: rgba(161,189,227, 0.9);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 72px;
+    line-height: 54px;
+    width: 100%;
+    height: 100%;
+    -moz-transition: border-color .5s, color .5s;
+    -o-transition: border-color .5s, color .5s;
+    -webkit-transition: border-color .5s, color .5s;
+    transition: border-color .5s, color .5s;
+}
+.mic-status {
+    color: #ccc;
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+}
